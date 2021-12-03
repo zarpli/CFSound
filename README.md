@@ -32,7 +32,7 @@ Enable debug messages on serial port :
 ```C++
 CFS.play("audio.wav")
 ```
-Play audio file called "audio.wav" in "media" directory.
+Play audio file called "audio.wav" in root directory.
 
 ```C++
 CFS.volume(INT)
