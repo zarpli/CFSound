@@ -1,6 +1,6 @@
 # CFSound
 
-CFSound audio players **with** a serial port can send and receive commands over serial using a custom script.
+CFSound audio players can send and receive commands over serial using a custom script.
 
 This Arduino Library is for use with [CFSuControl](https://github.com/zarpli/CFSuControl) Script
 
