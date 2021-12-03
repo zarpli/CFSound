@@ -26,8 +26,8 @@ Enable debug messages on serial port :
 
 |Debug Messages|Description|
 |---|---|
-|BS : online|The unit starts up and has the script installed|
-|BS : media_ended|A file has finished playing|
+|CFS : online|The unit starts up and has the script installed|
+|CFS : media_ended|A file has finished playing|
 
 ```C++
 CFS.play("audio.wav")
