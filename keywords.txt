@@ -19,7 +19,7 @@ update		KEYWORD2
 debug		KEYWORD2
 media_ended	KEYWORD2
 online		KEYWORD2
-ptt			KEYWORD2
+ptt		KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
