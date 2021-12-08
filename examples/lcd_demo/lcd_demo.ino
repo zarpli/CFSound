@@ -33,7 +33,7 @@ unsigned char current_track = 1;
 
 void setup(){
 
-CFS.debug();         // Enable debug msg over Serial
+CFS.debug();          // Enable debug msg over Serial
 
 lcd.begin(16, 2);
 lcd.print("CFSuControl");
@@ -49,7 +49,8 @@ while(!CFS.online())CFS.update();
 lcd.clear();
 lcd.print("CFSuControl");
 
-CFS.volume(50);      //Set Volume to 50%
+CFS.volume(50);       //Set Volume to 50%
+delay(2);             //In some versions of CF Sound units is need a time between commands.
 }
 
 void loop(){
