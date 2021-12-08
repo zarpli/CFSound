@@ -84,7 +84,10 @@ Serial.println("Waiting CFSound Power-Up");
 while(!CFS.online())CFS.update();
 
 //Set Volume to 50% 
-CFS.volume(50);            
+CFS.volume(50);
+
+//In some versions of CFSound units is need a time between commands.  
+delay(2);
 }
 
 void loop(){
