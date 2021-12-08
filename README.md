@@ -47,8 +47,8 @@ Stop the currently playing media.
 ```C++
 CFS.ptt(INT)
 ```
-0 : Disable built-in PTT Relay 
-1 : Enable built-in PTT Relay 
+0 : Disable built-in PTT Relay <br>
+1 : Enable built-in PTT Relay
 
 ```C++
 boolean CFS.online()
