@@ -37,7 +37,7 @@ Play audio file called "audio.wav" in root directory.
 ```C++
 CFS.volume(INT)
 ```
-Set the volume to INT percent of normal.
+Set the volume to INT percent (0 - 100).
 
 ```C++
 CFS.stop()
